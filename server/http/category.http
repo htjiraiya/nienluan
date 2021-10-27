@@ -1,0 +1,18 @@
+GET http://localhost:5000/api/category 
+
+###
+POST http://localhost:5000/api/category
+Content-Type: application/json
+
+{
+    "Name":"Loại 2",
+    "Discount":"28"
+}
+###
+PUT  http://localhost:5000/api/category/614b4a220dc935835e9ff9f0
+Content-Type: application/json
+
+{
+    "Name":"Loại 2.1",
+    "Discount":"28"
+}

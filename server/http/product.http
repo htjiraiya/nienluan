@@ -1,0 +1,69 @@
+GET http://localhost:5000/api/product
+###
+GET http://localhost:5000/api/product/61681a712ce14b7c5973fcea
+###
+POST http://localhost:5000/api/product 
+Content-Type: application/json
+
+{
+    "Name": "Sản phẩm 2",
+    "Category":"614b4a220dc935835e9ff9f0",
+    "Export_price": "140000",
+    "Img": [
+        {
+        "public_id": "adsdasd",
+        "url": "đâsdasdasdas"
+        },
+        {
+        "public_id": "abcabc",
+        "url": "qưeqweqwewqe"
+        }
+    ],
+    "Color": "614dd78c560e9610eb97d5c3",
+    "Description": "Đây là test thêm sản phẩm 3",
+    "Size_Quantity": [
+        {
+            "Size": "614c8b07d25a44a98d1a8fa2",
+            "Quantity": 100
+        },
+        {
+            "Size": "614c8b07d25a44a98d1a8fa2",
+            "Quantity": 50
+        },
+        {
+            "Size": "614c8b07d25a44a98d1a8fa2",
+            "Quantity": 70
+        }
+    ]
+}
+###
+PUT http://localhost:5000/api/product/61682318b904dffb61e0fd9e
+Content-Type: application/json
+
+{
+    "Name": "Sản phẩm 3",
+    "Category":"614b4a220dc935835e9ff9f0",
+    "Export_price": "140000",
+    "Img": [
+        {
+        "public_id": "123",
+        "url": "đâsdasdasdas"
+        }
+    ],
+    "Color": "614dd78c560e9610eb97d5c3",
+    "Description": "Đây là test thêm sản phẩm 3",
+    "Size_Quantity": [
+        {
+            "Size": "614c8b07d25a44a98d1a8fa2",
+            "Quantity": 100
+        },
+        {
+            "Size": "614c8b07d25a44a98d1a8fa2",
+            "Quantity": 50
+        },
+        {
+            "Size": "614c8b07d25a44a98d1a8fa2",
+            "Quantity": 70
+        }
+    ]
+}
