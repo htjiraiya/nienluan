@@ -1,4 +1,4 @@
-downlaod project
+download  project
 cd procject
 * start the server by:
 cd server
